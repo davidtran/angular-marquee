@@ -4,7 +4,7 @@
     "Nam Tran <nam.trankhanh.vn@gmail.com>"
   ],
   "description": "",
-  "main": "",
+  "main": "src/marquee.js",
   "moduleType": [],
   "license": "MIT",
   "homepage": "",
