@@ -1,0 +1,21 @@
+{
+  "name": "angular-marquee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-jasmine": "^0.3.6",
+		"karma-jasmine-jquery": "0.1.1"
+  }
+}

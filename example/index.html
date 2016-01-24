@@ -1,0 +1,21 @@
+<html ng-app="example">
+	<title>Angular Marquee</title>
+	<body ng-controller="exampleCtrl">
+		<form>
+			<label>Scrolling</label>
+			<input type="checkbox" ng-model="scroll">
+
+			<label>Duration</label>
+			<input type="text" ng-model="duration">
+		</form>
+
+		<div angular-marquee scroll="scroll" duration="duration">
+			{{ title }}
+		</div>
+
+		<script src="../public/components/jquery/dist/jquery.js"></script>
+		<script src="../public/components/angular/angular.js"></script>
+		<script src="../src/marquee.js"></script>
+		<script src="./example.js"></script>
+	</body>
+</html>
