@@ -35,4 +35,5 @@ angular
 Directive attributes:
 --------
 **scroll**: toggle marquee animation
+
 **duration**: duration in miliseconds which you want your element to travel
